@@ -1,0 +1,11 @@
+{
+	"id": "nodebb-plugin-embed-svg",
+	"name": "NodeBB Embed-SVG Plugin",
+	"description": "This plugin embeds SVG graphics in NodeBB",
+	"library": "./library.js",
+	"hooks": [
+        { "hook": "filter:parse.post", "method": "parse", "callbacked": true }	],
+	"staticDirs": {
+        "static": "./static"
+    }
+}
