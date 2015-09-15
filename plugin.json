@@ -2,6 +2,7 @@
 	"id": "nodebb-plugin-embed-svg",
 	"name": "NodeBB Embed-SVG Plugin",
 	"description": "This plugin embeds SVG graphics in NodeBB",
+	"url": "https://github.com/Linux-statt-Windows/nodebb-plugin-embed-svg",
 	"library": "./library.js",
 	"hooks": [
         { "hook": "filter:parse.post", "method": "parse", "callbacked": true }	],
